@@ -11,12 +11,12 @@
 
 # Autocomplete
 
-| Shortcut | Description |
-| -------- | ----------- |
-| Ctrl+N   | Next suggestion |
-| Ctrl+P   | Previous suggestion |
-| Ctrl+Y   | (Yes) accept suggestion |
-| Ctrl+E   | (Exit) dismiss suggestions |
+| Shortcut | Description                |
+| -------- | -------------------------- |
+| \<C-N\>  | Next suggestion            |
+| \<C-P\>  | Previous suggestion        |
+| \<C-Y\>  | (Yes) accept suggestion    |
+| \<C-E\>  | (Exit) dismiss suggestions |
 
 # Virtual Edit
 
@@ -25,6 +25,17 @@
 | set virtualedit=insert | Only in insert mode |
 | set virtualedit=all    | In any mode |
 | set virtualedit=       | Reset back to default |
+
+# Window Sizing
+
+| Command   | Description             |
+| --------- | ----------------------- |
+| \<C-W\>_  | Maximize pane on Y axis |
+| \<C-W\>\| | Maximize pane on X axis |
+| \<C-W\>=  | Equally size all splits |
+| \<C-W\>x  | Swap splits             |
+| \<C-W\>r  | Rotate splits           |
+
 
 # mkdnflow.nvim
 
