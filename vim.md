@@ -25,3 +25,17 @@
 | set virtualedit=insert | Only in insert mode |
 | set virtualedit=all    | In any mode |
 | set virtualedit=       | Reset back to default |
+
+# mkdnflow.nvim
+
+https://github.com/jakewvincent/mkdnflow.nvim#mappings
+
+_Note: S- is shift_
+
+| Command      | Mode | Description |
+| ------------ | ---- | ----------- |
+| \<C-Space\>  | nv   | Toggle todo |
+| \<leader\>ax | n    | Align table |
+| \<Tab\>      | i    | Next cell   |
+| \<S-Tab\>    | i    | Prev cell   |
+
