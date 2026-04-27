@@ -18,9 +18,10 @@
 # Worktrees
 
 | Command                                      | Description                   |
-| -------------------------------------------- | ----------------------------- |
+|----------------------------------------------|-------------------------------|
 | git worktree add \<path\>                    | Add worktree                  |
 | git worktree add \<path\> -b \<branch-name\> | Add worktree branch specified |
+| git worktree add \<path\> \<remote-branch\>  | Add worktree remote specified |
 
 ## Troubleshooting
 
