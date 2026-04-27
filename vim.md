@@ -46,7 +46,3 @@ _Note: S- is shift_
 | Command      | Mode | Description |
 | ------------ | ---- | ----------- |
 | \<C-Space\>  | nv   | Toggle todo |
-| \<leader\>ax | n    | Align table |
-| \<Tab\>      | i    | Next cell   |
-| \<S-Tab\>    | i    | Prev cell   |
-
