@@ -10,8 +10,9 @@
 ```
 
 # Helpful Commands
+
 | Command                  | Description                                              |
-| ------------------------ | -------------------------------------------------------- |
+|--------------------------|----------------------------------------------------------|
 | git merge-base HEAD main | Where did my current branch and main last share history? |
 
 # Worktrees
@@ -29,7 +30,6 @@ If the upstream is not setup correctly when trying to pull or push, make sure th
 git config --get remote.origin.fetch
 
 +refs/heads/*:refs/remotes/origin/*
-
 ```
 
 if it does not run the following
@@ -42,9 +42,7 @@ git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 # Renaming a branch
 
 > If the renamed branch is the head branch of an open pull request, this pull request is closed. 
-
-https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch
-
+> [source](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch)
 
 ```bash
 # Rename your local branch

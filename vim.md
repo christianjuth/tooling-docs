@@ -20,10 +20,10 @@
 
 # Virtual Edit
 
-| Command  | Description |
-| -------- | ----------- |
-| set virtualedit=insert | Only in insert mode |
-| set virtualedit=all    | In any mode |
+| Command                | Description           |
+|------------------------|-----------------------|
+| set virtualedit=insert | Only in insert mode   |
+| set virtualedit=all    | In any mode           |
 | set virtualedit=       | Reset back to default |
 
 # Window Sizing

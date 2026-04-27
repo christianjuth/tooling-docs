@@ -9,7 +9,7 @@
  \______/ |__/  |__/|________/|________/|________/
 ```
 
-| Command     | Description                        |     |
-| ----------- | ---------------------------------- | --- |
-| &>/dev/null | Redirect output to trash           |     |
-| echo $?     | Check the exit of the last command |     |
+| Command     | Description                        |
+|-------------|------------------------------------|
+| &>/dev/null | Redirect output to trash           |
+| echo $?     | Check the exit of the last command |
