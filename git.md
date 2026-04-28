@@ -59,10 +59,10 @@ git push origin --delete old-branch-name
 # Lint Changed Files
 
 ```bash
-git diff --name-only --diff-filter=ACMR "$(git merge-base HEAD main)"..HEAD \
+git diff --merge-base main --name-only --diff-filter=ACMR \
   | rg '\.(js|jsx|ts|tsx)$' \
   | xargs -r pnpm exec eslint -f checkstyle \
-  | reviewdog -f=checkstyle -reporter=local -filter-mode=added -diff="git diff $(git merge-base HEAD main)..HEAD"
+  | reviewdog -f=checkstyle -reporter=local -filter-mode=added -diff="git diff --merge-base main"
 ```
 
 ## Scope To One App Or Package

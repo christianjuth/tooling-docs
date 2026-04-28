@@ -10,5 +10,5 @@
 https://developer.atlassian.com/cloud/acli/reference/commands/
 
 | Command                         | Description       |
-| ------------------------------- | ----------------- |
+|---------------------------------|-------------------|
 | acli jira workitem view PRC-XXX | Print Jira ticket |
