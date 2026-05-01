@@ -9,6 +9,14 @@
     \_/    |______/|__/     |__/
 ```
 
+# Read from stdin into buffer
+
+_Note: "-" tells vim to read from stdin_
+
+```bash
+pnpm lint | vim -
+```
+
 # Autocomplete
 
 | Shortcut | Description                |
@@ -36,12 +44,7 @@
 | \<C-W\>x  | Swap splits             |
 | \<C-W\>r  | Rotate splits           |
 
-
-# mkdnflow.nvim
-
-https://github.com/jakewvincent/mkdnflow.nvim#mappings
-
-_Note: S- is shift_
+# Markdown
 
 | Command      | Mode | Description |
 | ------------ | ---- | ----------- |
