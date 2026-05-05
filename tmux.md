@@ -19,3 +19,4 @@ _Note: M is option on Mac_
 | Space    | Arrange the current window in the next preset layout. |
 | M-E      | Size all panes evenly |
 
+Tip: run `stty sane` when you're having a bad day
