@@ -13,10 +13,15 @@
 
 _Note: M is option on Mac_
 
-| Shortcut | Description |
-| -------- | ----------- |
+| Shortcut | Description                                                                                                                                                                   |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | M-<1-7>  | Arrange panes in one of the seven preset layouts: even-horizontal, even-vertical, main-horizontal, main-horizontal-mirrored, main-vertical, main-vertical-mirrored, or tiled. |
-| Space    | Arrange the current window in the next preset layout. |
-| M-E      | Size all panes evenly |
+| Space    | Arrange the current window in the next preset layout.                                                                                                                         |
+| M-E      | Size all panes evenly                                                                                                                                                         |
 
-Tip: run `stty sane` when you're having a bad day
+# Troubleshooting
+
+| Issue                                                             | Fix                |
+|-------------------------------------------------------------------|--------------------|
+| Weird line wrapping or trailing `%` when running commands in pane | `stty sane`        |
+| Window stops being responsive to terminal window                  | `resize-window -A` |
