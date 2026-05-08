@@ -13,11 +13,23 @@
 
 _Note: M is option on Mac_
 
-| Shortcut | Description                                                                                                                                                                   |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M-<1-7>  | Arrange panes in one of the seven preset layouts: even-horizontal, even-vertical, main-horizontal, main-horizontal-mirrored, main-vertical, main-vertical-mirrored, or tiled. |
-| Space    | Arrange the current window in the next preset layout.                                                                                                                         |
-| M-E      | Size all panes evenly                                                                                                                                                         |
+## Selecting a layout
+
+| Shortcut | Description                                           |
+|----------|-------------------------------------------------------|
+| M-<1-7>  | Arrange panes in one of the seven preset layouts.     |
+| Space    | Arrange the current window in the next preset layout. |
+
+## Resizing the current layout
+| Shortcut | Description           |
+|----------|-----------------------|
+| M-E      | Size all panes evenly |
+
+## Swap panes in the current window 
+| Shortcut | Description                                               |
+|----------|-----------------------------------------------------------|
+| {        | Swap with the pane having the previous visible pane index |
+| }        | Swap with the pane having the next visible pane index     |
 
 # Troubleshooting
 
